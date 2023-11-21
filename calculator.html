@@ -1,0 +1,85 @@
+<style>
+  body{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-align: center;
+  }
+  h1{
+      text-align: center;
+  }
+  
+  .main{
+      margin-left: 470px;
+      background-color: #1f1f21;
+      width: 30%;
+  }
+   #display{
+      width: 93%;
+      padding: 5px;
+      font-size: 55px;
+      color: black;
+      background-color: #fff;
+      text-align: right;
+      border: 1px solid black;
+      outline: none;
+  }
+  .clear{
+      background-color: rgb(233, 123, 14);
+      color: #fff;
+  }
+	.allclear{
+      background-color: red;
+      color: #fff;
+  }
+   input{
+      background-color: #333;
+      color: #fff;
+      margin-top: 5px;
+      font-size: 25px;
+      width: 90px;
+      height: 90px;
+      border-radius: 40px;
+      border-width: 0;
+  } 
+  .finalresult{
+      background-color: #001010;
+  }
+</style>
+
+<html>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>   
+    <script src="JS.js"></script>
+    <h1>Simple Calculator</h1><br>
+    <div class="main">
+<!--form tags-->
+    <input id="display" type="text" placeholder=""><br>
+
+		<input type="button" value=" ">
+    <input class="allclear" type="button" value="AC">
+    <input class="clear" type="button" value="C">
+    <input class="clc" type="button" value="/">
+    <br>
+    <input class="clc" type="button" value="7">
+    <input class="clc" type="button" value="8">
+    <input class="clc" type="button" value="9">
+    <input class="clc" type="button" value="*">
+    <br>
+    <input class="clc" type="button" value="4">
+    <input class="clc" type="button" value="5">
+    <input class="clc" type="button" value="6">
+    <input class="clc" type="button" value="-">
+    <br>
+    <input class="clc" type="button" value="1">
+    <input class="clc" type="button" value="2">
+    <input class="clc" type="button" value="3">
+    <input class="clc" type="button" value="+">
+    <br>
+		<input class="clc" type="button" value="00">
+    <input class="clc" type="button" value="0">
+    <input class="clc" type="button" value=".">
+    <input class="result" type="button" value="=">
+</div>
+  </body>
+</html>
